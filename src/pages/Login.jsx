@@ -51,7 +51,7 @@ const Login = () => {
         setError(result.message || 'Credenciales inválidas');
       }
     } catch (err) {
-      setError('Error al conectar con el servidor');
+      setError('Error al conectar con el servidor de render');
     } finally {
       setLoading(false);
     }
